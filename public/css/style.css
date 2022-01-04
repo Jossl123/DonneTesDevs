@@ -1,0 +1,39 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    width: 100%;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+#top-right-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    padding-right: 30px;
+}
+
+#pp {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
